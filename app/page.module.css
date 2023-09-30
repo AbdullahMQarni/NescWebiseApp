@@ -1,0 +1,107 @@
+/* Navigation bar */
+
+.navBar{
+  background-color: rgb(100, 0, 139);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  background: rgba( 100, 0, 139, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  -webkit-backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  position: fixed;
+  width: 100%;
+}
+
+.bNav{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.bNav li{
+  list-style: none;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.bNav li:hover{
+  transform: scale(1.1);
+  color: #553a5f;
+}
+
+.logo{
+  font-size: 30px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.logo:hover{
+  color: #553a5f;
+  cursor: none;
+}
+
+/* All Pages css */
+
+.main{
+  color: #000;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.section{
+  padding: 100px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Page - Home */
+
+.Welcome{
+  font-size: 30px;
+}
+
+.sectionTwo{
+  color: #ffffff;
+  background-color: #553a5f;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.myImage{
+  border-radius: 25px;
+}
+
+/* Page - Home - Our NESC */
+
+.ourNESC{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 330px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+
+/* Page - About */
+
